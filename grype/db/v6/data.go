@@ -39,6 +39,10 @@ func KnownOperatingSystemSpecifierOverrides() []OperatingSystemSpecifierOverride
 		{Alias: "wolfi", Rolling: true},
 		{Alias: "chainguard", Rolling: true},
 
+		// BellSoft family
+		{Alias: "alpaquita", ReplacementName: strRef("bellsoft"), Rolling: true},
+		{Alias: "bellsoft-hardened-containers", ReplacementName: strRef("bellsoft"), Rolling: true},
+
 		// others
 		{Alias: "arch", Rolling: true},
 		{Alias: "minimos", Rolling: true},

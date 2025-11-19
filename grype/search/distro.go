@@ -120,6 +120,7 @@ func mimicV6DistroTypeOverrides(t distro.Type) distro.Type {
 		"oraclelinux": "ol",
 		"amazon":      "amzn",
 		"amazonlinux": "amzn",
+		"bellsoft":    "alpaquita",
 	}
 
 	applyMapping := func(i string) distro.Type {
